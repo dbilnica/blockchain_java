@@ -2,7 +2,7 @@ public class Miner {
     private int difficulty;
     private String target;
 
-    Miner(int difficulty, String target) {
+    Miner(int difficulty) {
         this.difficulty = difficulty;
 
         // create a string of '0' difficulty size
